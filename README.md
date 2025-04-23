@@ -45,16 +45,19 @@ Making Predictions: Used the trained model to predict survival on the test set.
 4. Model Evaluation
 Performance Metrics: Evaluated the model using accuracy, precision, recall, and F1-score.
 Results: Achieved an accuracy of 1.00, indicating perfect predictions on the test set.
-5. Hyperparameter Tuning (Optional)
-Optimization: Used Grid Search to find the best hyperparameters for the Random Forest model.
 6. Model Saving
 Persistence: Saved the trained model using joblib for future use.
-Results
+
+## Results
 The model achieved the following performance metrics on the test set:
 
-Accuracy: 1.00
-Precision: 1.00 for both classes
-Recall: 1.00 for both classes
-F1-Score: 1.00 for both classes
-Confusion Matrix
+- Accuracy: 1.00
+- Precision: 1.00 for both classes
+- Recall: 1.00 for both classes
+- F1-Score: 1.00 for both classes
+  
+## Confusion Matrix
 A confusion matrix was generated to visualize the model's performance, showing no false positives or false negatives.
+
+## Conclusion
+The Titanic Survival Prediction project successfully developed a machine learning model that predicts passenger survival with perfect accuracy. The project demonstrates the end-to-end process of building a machine learning model, from data preprocessing to model evaluation
